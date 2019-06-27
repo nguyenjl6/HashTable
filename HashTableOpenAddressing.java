@@ -285,7 +285,7 @@ public class HashTableOpenAddressing<K, V> implements DictionaryInterface<K, V> 
 		else if ((integer == 2) || (integer == 3)) {
 			result = true;
 		}
-		//TODO what the fuck is this?
+		//TODO 
 		else  {				// integer is odd and >= 5
 			result = true; 	// assume prime
 			for (int divisor = 3; !done && (divisor * divisor <= integer); 																	divisor = divisor + 2) {
